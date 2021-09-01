@@ -1,0 +1,30 @@
+$very-light-blue: #f2ecff;
+$dark-gray: #5b666d;
+table {
+  width: 85%;
+  margin: auto;
+  margin-top: 20px;
+  th {
+    padding: 10px 0;
+    background: $dark-gray;
+    color: white;
+  }
+  tr {
+    cursor: pointer;
+    background-color: $very-light-blue;
+    &:hover {
+      background-color: darken($very-light-blue, 1.5%);
+    }
+  }
+  .extra-imgs-row {
+    div {
+      display: flex;
+      justify-content: space-evenly;
+      width: 80%;
+      margin: auto;
+    }
+    img {
+      padding: 0 10px;
+    }
+  }
+}
