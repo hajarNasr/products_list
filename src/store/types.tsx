@@ -1,0 +1,4 @@
+export const GET_PRODUCTS = "GET_PRODUCTS";
+export const SEARCH_PRODUCTS = "SEARCH_PRODUCTS";
+
+export const HIDE_AUTO_LIST = "HIDE_AUTO_LIST";
